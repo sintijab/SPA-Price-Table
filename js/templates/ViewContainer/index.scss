@@ -1,0 +1,33 @@
+@import '../../../styles/main';
+
+.section {
+  display: block;
+  margin: 2rem;
+}
+
+.list_item {
+  padding: 1.5rem 2rem;
+  border-bottom: 1px solid $light-gray;
+  cursor: pointer;
+}
+
+.header, .row {
+  display: flex;
+  line-height: 2;
+  padding: 1rem 0;
+  border-bottom: 1px solid $light-gray;
+  flex-wrap: wrap;
+}
+
+.row {
+  cursor: pointer;
+}
+
+.col {
+  flex: 1;
+  flex-basis: 25%;
+
+  @include desktop {
+	   flex-basis: 20%;
+	}
+}

@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<ViewContainer /> should render ViewContainer container 1`] = `
+<ContextProvider
+  value={null}
+>
+  <ViewContainer
+    data={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "budget": 9787866,
+              "budget_spent": 46000,
+              "date_of_first_purchase": "2409-07-07",
+              "id": 7,
+              "name": "InsuranceFirma",
+            },
+          ],
+          "error": false,
+          "loading": false,
+          "type": "DATA_LOADED",
+        },
+      ]
+    }
+    priceUpdate={Array []}
+    showModal={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  />
+</ContextProvider>
+`;
+
+exports[`<ViewContainer /> should render ViewContainer container with stored data 1`] = `
+<Connect(ViewContainer)
+  store={
+    Object {
+      "clearActions": [Function],
+      "dispatch": [Function],
+      "getActions": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <ViewContainer
+    data={
+      Array [
+        Object {
+          "data": Array [
+            Object {
+              "budget": 9787866,
+              "budget_spent": 46000,
+              "date_of_first_purchase": "2409-07-07",
+              "id": 7,
+              "name": "InsuranceFirma",
+            },
+          ],
+          "error": false,
+          "loading": false,
+          "type": "DATA_LOADED",
+        },
+      ]
+    }
+    priceUpdate={Array []}
+    showModal={[Function]}
+    store={
+      Object {
+        "clearActions": [Function],
+        "dispatch": [Function],
+        "getActions": [Function],
+        "getState": [Function],
+        "replaceReducer": [Function],
+        "subscribe": [Function],
+      }
+    }
+  >
+    <section
+      className="section"
+    >
+      <header
+        className="header"
+      >
+        <div
+          className="col"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Company",
+            }
+          }
+        />
+        <div
+          className="col"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Date of purchase",
+            }
+          }
+        />
+        <div
+          className="col"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Total budget",
+            }
+          }
+        />
+        <div
+          className="col"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Budget spent",
+            }
+          }
+        />
+        <div
+          className="col"
+          dangerouslySetInnerHTML={
+            Object {
+              "__html": "Budget left",
+            }
+          }
+        />
+      </header>
+      <div
+        className="list_items"
+      >
+        <div
+          className="row"
+          key="7"
+          onClick={[Function]}
+          role="presentation"
+        >
+          <div
+            className="col"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "InsuranceFirma",
+              }
+            }
+          />
+          <div
+            className="col"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "2409-07-07",
+              }
+            }
+          />
+          <div
+            className="col"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "9.787.866,00 €",
+              }
+            }
+          />
+          <div
+            className="col"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "46.000,00 €",
+              }
+            }
+          />
+          <div
+            className="col"
+            dangerouslySetInnerHTML={
+              Object {
+                "__html": "9.741.866,00 €",
+              }
+            }
+          />
+        </div>
+      </div>
+    </section>
+  </ViewContainer>
+</Connect(ViewContainer)>
+`;

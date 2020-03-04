@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Overlay /> renders <Overlay /> component 1`] = `
+<div
+  className="modal"
+>
+  <div
+    className="close-btn"
+    onClick={[Function]}
+    role="presentation"
+  >
+    Close
+  </div>
+  <div
+    className="modal_item"
+    dangerouslySetInnerHTML={
+      Object {
+        "__html": "<h3>MartinFirma</h3>",
+      }
+    }
+  />
+  <form
+    onSubmit={[Function]}
+  >
+    <WithStyles(ForwardRef(Input))
+      defaultValue="65345664332234.00"
+      error={false}
+      inputProps={
+        Object {
+          "step": "any",
+        }
+      }
+      inputRef={[Function]}
+      label="total price"
+      name="totalBudget"
+      onChange={[Function]}
+      type="number"
+    />
+    <br />
+    <WithStyles(ForwardRef(ButtonBase))
+      classes={
+        Object {
+          "root": "button",
+        }
+      }
+      disabled={false}
+      type="submit"
+    >
+      Submit
+    </WithStyles(ForwardRef(ButtonBase))>
+  </form>
+</div>
+`;

@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "name": "MartinFirma",
+    "budget": "1254.489999993",
+    "budget_spent": 45000,
+    "date_of_first_purchase": "2119-07-07"
+  },
+  {
+    "id": 2,
+    "name": "SolarFirma",
+    "budget": 123.123,
+    "budget_spent": 45000,
+    "date_of_first_purchase": "2519-07-07"
+  },
+  {
+    "id": 3,
+    "name": "BankFirma",
+    "budget": 134540.05,
+    "budget_spent": 45000,
+    "date_of_first_purchase": "2019-07-07"
+  },
+  {
+    "id": 4,
+    "name": "FintechFirma",
+    "budget": 10321003,
+    "budget_spent": 45000,
+    "date_of_first_purchase": "2159-07-07"
+  },
+  {
+    "id": 5,
+    "name": "BakeryFirma",
+    "budget": 103452341003,
+    "budget_spent": 46000,
+    "date_of_first_purchase": "2409-07-07"
+  },
+  {
+    "id": 6,
+    "name": "FinanceFirma",
+    "budget": 6754523,
+    "budget_spent": 46000,
+    "date_of_first_purchase": "2409-07-07"
+  },
+  {
+    "id": 7,
+    "name": "InsuranceFirma",
+    "budget": 9787866,
+    "budget_spent": 46000,
+    "date_of_first_purchase": "2409-07-07"
+  },
+  {
+    "id": 8,
+    "name": "CarFirma",
+    "budget": 443442342.234,
+    "budget_spent": 46334000,
+    "date_of_first_purchase": "2409-07-07"
+  }
+]
